@@ -43,8 +43,6 @@ private slots:
 
     void on_info_clicked();
 
-    void on_cerrar_clicked();
-
 private:
     Ui::ALUWindow *ui;
 };
