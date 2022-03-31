@@ -74,7 +74,7 @@ void ALUWindow::on_pushButton_clicked()
 //  TRANSFORMACIONES DE NUMEROS
 //  ---------------------------
 
-//  INotifyPropertyChanged
+//  INotifyPropertyChanged o RaisePropertyChanged
 
 //Cuando introduzcas un numero en Real que se rellenen automaticamente los de IEE y Hex
 
@@ -136,5 +136,11 @@ void ALUWindow::on_NumeroHex_1_textChanged()
 void ALUWindow::on_NumeroHex_2_textChanged()
 {
 
+}
+
+
+void ALUWindow::on_cerrar_clicked()
+{
+    this->close();
 }
 
