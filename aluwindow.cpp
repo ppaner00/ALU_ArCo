@@ -24,15 +24,13 @@ void ALUWindow::on_Sumar_clicked()
 
 void ALUWindow::on_Multiplicar_clicked()
 {
-    double sol = multiplicar();
-    ui->SolReal->setText(QString::number(sol));
+
 }
 
 
 void ALUWindow::on_Dividir_clicked()
 {
-    double sol = dividir();
-    ui->SolReal->setText(QString::number(sol));
+
 }
 
 
