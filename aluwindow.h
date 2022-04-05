@@ -31,14 +31,6 @@ private slots:
 
     void on_NumeroReal_2_textChanged();
 
-    void on_NumeroIEEE_1_textChanged();
-
-    void on_NumeroIEEE_2_textChanged();
-
-    void on_NumeroHex_1_textChanged();
-
-    void on_NumeroHex_2_textChanged();
-
     void on_info_clicked();
 
 private:

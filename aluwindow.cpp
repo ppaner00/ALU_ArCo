@@ -108,36 +108,3 @@ void ALUWindow::on_NumeroReal_2_textChanged()
 
 
 
-
-//IEEE
-void ALUWindow::on_NumeroIEEE_1_textChanged()
-{
-//    double IEEEToReal = ui->NumeroIEEE_1->toPlainText().toDouble();
-//    double IEEEToHex =IEEEToReal;
-
-//    IEEEToReal = IEEEToReal * 2; //Aqui hacemos la transformacion llamando a otro metodo
-//    IEEEToHex = IEEEToHex * 3;
-
-//    ui->NumeroReal_1->setText(QString::number(IEEEToReal));
-//    ui->NumeroHex_1->setText(QString::number(IEEEToHex));
-}
-
-
-void ALUWindow::on_NumeroIEEE_2_textChanged()
-{
-
-}
-
-
-void ALUWindow::on_NumeroHex_1_textChanged()
-{
-
-}
-
-
-void ALUWindow::on_NumeroHex_2_textChanged()
-{
-
-}
-
-
