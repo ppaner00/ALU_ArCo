@@ -27,8 +27,6 @@ private slots:
 
     void on_Dividir_clicked();
 
-    void on_pushButton_clicked();
-
     void on_NumeroReal_1_textChanged();
 
     void on_NumeroReal_2_textChanged();

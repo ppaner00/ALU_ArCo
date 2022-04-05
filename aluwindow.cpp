@@ -60,7 +60,7 @@ double ALUWindow::dividir(){
     return sol;
 }
 
-void ALUWindow::on_pushButton_clicked()
+void ALUWindow::on_info_clicked()
 {
     QMessageBox mensaje;
     QString texto;
