@@ -140,3 +140,4 @@ void ALUWindow::on_NumeroHex_2_textChanged()
 
 }
 
+
