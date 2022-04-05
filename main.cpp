@@ -9,3 +9,16 @@ int main(int argc, char *argv[])
     w.show();
     return a.exec();
 }
+
+
+/* Cosas por hacer:
+ * IEEE suma sin signo
+ * IEEE multiplicacion
+ * IEEE division con signo
+ *  Sin signo
+ *
+ * IEEE suma    Todos
+ * Real a IEEE  Edu
+ * IEEE a real  David
+ * IEEE a hex   Pablo
+*/

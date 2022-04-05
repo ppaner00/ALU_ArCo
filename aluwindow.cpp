@@ -76,9 +76,6 @@ void ALUWindow::on_info_clicked()
 //  TRANSFORMACIONES DE NUMEROS
 //  ---------------------------
 
-//  INotifyPropertyChanged
-
-//Cuando introduzcas un numero en Real que se rellenen automaticamente los de IEE y Hex
 
 //REAL
 void ALUWindow::on_NumeroReal_1_textChanged()
@@ -105,6 +102,10 @@ void ALUWindow::on_NumeroReal_2_textChanged()
     ui->NumeroIEEE_2->setText(QString::number(realToIEEE));
     ui->NumeroHex_2->setText(QString::number(realToHex));
 }
+
+//  ---------------------------
+//          ALGORITMOS
+//  ---------------------------
 
 
 
