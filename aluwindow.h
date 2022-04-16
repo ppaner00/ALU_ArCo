@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include "QMessageBox"
+#include <stdio.h>
+#include <unistd.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ALUWindow; }
@@ -16,9 +18,21 @@ public:
     ALUWindow(QWidget *parent = nullptr);
     ~ALUWindow();
 
+    union Code{
+        struct{
+            unsigned int partFrac = 23;
+            unsigned int exp = 8;
+            unsigned int sign = 1;
+        }bitfield;
+
+        float num;
+        unsigned int numAux;
+    };
+
     double sumar();
     double multiplicar();
     double dividir();
+    QString realToIEEE754();
 
 private slots:
     void on_Sumar_clicked();
