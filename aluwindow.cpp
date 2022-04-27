@@ -107,5 +107,3 @@ void ALUWindow::on_NumeroReal_2_textChanged()
 //          ALGORITMOS
 //  ---------------------------
 
-
-
